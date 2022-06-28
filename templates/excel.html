@@ -1,9 +1,29 @@
 [[extend 'layout.html']]
+<table>
+  <tr>
+    <th><div class="section">
+      <div class="c50">
+            <h3 class="title">Siti importati</h3></th>
+    <th></div>
+      <div class="c50">
+        <h3 class="title">Excel generati</h3></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td></td>
+  </tr>
+</table>
 
 <div class="section">
     <div class="c50">
-      <table>
-          <th><h3 class="title">Siti importati</h3></th>
+          <h3 class="title">Siti importati</h3>
       <ul>
       [[for row in rows:]]
       <li>[[=row.id]]: [[=row.website_url]]</li>
