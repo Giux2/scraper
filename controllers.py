@@ -119,7 +119,7 @@ def chisono():
 # controllers definition
 @action("excel")
 @action.uses('excel.html', db)
-@action.uses(auth.user)  
+#@action.uses(auth.user)  
 def excel():
     rows = db(db.siti_importati).select()
     rowsExcel = db(db.files_excel).select()
