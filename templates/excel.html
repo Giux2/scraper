@@ -1,11 +1,9 @@
 [[extend 'layout.html']]
 
-<tr>
 <div class="section">
     <div class="c50">
-      <table header>
+      <table>
           <th><h3 class="title">Siti importati</h3></th>
-        </tr>
       <ul>
       [[for row in rows:]]
       <li>[[=row.id]]: [[=row.website_url]]</li>
