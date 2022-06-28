@@ -10,12 +10,20 @@
     <th></th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
+    <td><ul>
+      [[for row in rows:]]
+      <li>[[=row.id]]: [[=row.website_url]]</li>
+      [[pass]]
+      </ul></td>
+    <td><ul>
+      [[for row in rowsExcel:]]
+     <li>ID SITO: [[=row.reference_file]] <a href="/scraper/static/excel/[[=row.file]]">[[=row.file]]</a></li> 
+      [[pass]]
+      </ul></td>
     <td></td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
+    <td></td>
     <td>Francisco Chang</td>
     <td></td>
   </tr>
