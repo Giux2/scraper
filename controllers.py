@@ -95,9 +95,8 @@ def my_scraper(URL, id):
 def index(id=None):
     form = Form(db.siti_importati, id, deletable=False, formstyle=FormStyleDefault)
     
-    rows = db(db.siti_importati).select()
-    rowsExcel = db(db.files_excel).select()
-
+    welcome = ("Benvenuti,  per scaricare i files excel è necessario il login")
+    
     if form.accepted:
         URL = form.vars['website_url']
         id = form.vars['id']
@@ -105,7 +104,8 @@ def index(id=None):
     if form.errors:
         redirect(URL('not_accepted'))
 
-    return dict(form=form, rows=rows, rowsExcel=rowsExcel)
+    return dict(form=form, welcome=welcome)
+
 
 
 # controllers definition
