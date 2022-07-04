@@ -20,8 +20,20 @@ Il programma deve gestire e mettere in relazione tra loro i seguenti paramentri:
 - superiore ai 10 gradi (rischio eleveto)
 
 ### Orario del giorno
+- dalle 24:00PM alle 07:00AM
+- dalle 07:00AM alle 10:00AM
+- dalle 10:00AM alle 16:00PM
+- dalle 16:00PM alle 24:00PM
 
 ### Esposizione del versante
+- Nord
+- Sud
+- Est 
+- Ovest
 
 ### Quota sul livello del mare
+- Da 0 a 1000
+- Da 1000 a 2000
+- Da 2000 a 3000
+- Da 3000 a 4000
 
