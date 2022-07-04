@@ -17,7 +17,7 @@ Il programma deve gestire e mettere in relazione tra loro i seguenti paramentri:
 ### Temperatura
 - inferiore allo 0 Celsius (rischio basso)
 - compresa tra 0 e 10 gradi Celsius (rischio moderato)
-- superiore ai 10 gradi (rischio eleveto)
+- superiore ai 10 gradi (rischio elevato)
 
 ### Orario del giorno
 - dalle 24:00PM alle 07:00AM
@@ -27,13 +27,13 @@ Il programma deve gestire e mettere in relazione tra loro i seguenti paramentri:
 
 ### Esposizione del versante
 - Nord
-- Sud
+- Sud 
 - Est 
 - Ovest
 
 ### Quota sul livello del mare
-- Da 0 a 1000
-- Da 1000 a 2000
-- Da 2000 a 3000
-- Da 3000 a 4000
+- Da 0 a 1000 (rischio basso)
+- Da 1000 a 2000 (rischio basso)
+- Da 2000 a 3000 (rischio moderato)
+- Da 3000 a 4000 (rischio elevato)
 
