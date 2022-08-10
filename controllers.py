@@ -62,7 +62,6 @@ def my_scraper(URL, id):
         soup = bs(req.text, 'html.parser')
 
         titoli = soup.find_all('div', attrs={'class','titolo_release'})
-        autori = soup.find_all('div', attrs={'class','nome_autore'})
         
         for fumetto in range(0, 24):
             print('Titolo \n' + titoli[fumetto].text)
